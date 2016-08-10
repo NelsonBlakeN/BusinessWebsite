@@ -1,13 +1,27 @@
 body {
-    font-family: Georfia, serif;
+    font-family: Georgia, serif;
     height: 100%;
-    margin: 0;
     text-align: center;
     width: 100%;
 }
 
 h1 {
     font-size: 32px;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: 100;
+}
+
+.page-description {
+    border: 1px solid #000;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .hero {
@@ -17,6 +31,7 @@ h1 {
     margin: 30px;
     text-shadow: 0 2px #000000;
     font-family: 'Trebuchet MS', 'Helvetica';
+    display: inline;
 }
 
 p {
