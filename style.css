@@ -1,51 +1,68 @@
 body {
     font-family: Georgia, serif;
-    height: 100%;
     text-align: center;
     width: 100%;
+    margin: 0;
+    height: 100%;
 }
 
-h1 {
-    font-size: 32px;
+.banner {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(80, 0, 0);
+    color: white;
+    padding: 10px 0 10px 0;
+    top: 0;
 }
 
-.page-title {
-    text-align: center;
-    font-weight: 100;
+.banner-content {
+    width: 1600px;
+    display: flex;
+    margin: auto;
+    align-items: center;
 }
 
-.page-description {
-    border: 1px solid #000;
-    text-align: center;
-    color: black;
-    padding: 20px;
-    margin-top: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
+#header-home {
+    font-size: 36px;
+    line-height: 34px;
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.header-item {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.spacer {
+    width: 36px;
+}
+
+#divider {
+    width: 2px;
+    background-color: grey;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .hero {
     background-position: center top;
     background-size: cover;
-    padding: 250px 0;
-    margin: 30px;
+    padding: 150px;
     text-shadow: 0 2px #000000;
     font-family: 'Trebuchet MS', 'Helvetica';
-    display: inline;
+    border: 1px solid #204156;
+    margin-top: 100px;
+}
+
+img {
+    width: 64px;
+    height: 64px;
 }
 
 p {
-    color: #ffffff;
+    color: grey;
     font-size: 2em;
-}
-
-.hero a {
-    color: #00FFAA;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-#footer {
-    color: DarkSlateGray;
-    font-size: 16px;
 }
