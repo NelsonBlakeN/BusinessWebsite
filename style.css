@@ -1,18 +1,31 @@
-body {
-    font-family: Georgia, serif;
-    text-align: center;
-    width: 100%;
+html, body {
     margin: 0;
-    height: 100%;
+    padding: 0;
 }
 
+body {
+    display: block;
+    align-items: center;
+}
+
+#about {
+    margin-top: 150px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 .banner {
     width: 100%;
-    position: fixed;
-    background-color: rgb(80, 0, 0);
+    position: fixed; /*Keeps the banner at the top of the page as you scroll down*/
+    background-color: rgb(80, 0, 0); /*Aggie Maroon thx and gigem*/
     color: white;
     padding: 10px 0 10px 0;
     top: 0;
+    margin: auto;
 }
 
 .banner-content {
@@ -24,6 +37,13 @@ body {
 
 #header-home {
     font-size: 36px;
+    font-family: Georgia, serif;
+    line-height: 34px;
+}
+
+#header-projects {
+    font-size: 28px;
+    font-family: Georgia, serif;
     line-height: 34px;
 }
 
@@ -40,29 +60,33 @@ body {
     width: 36px;
 }
 
-#divider {
-    width: 2px;
-    background-color: grey;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.hero {
-    background-position: center top;
-    background-size: cover;
-    padding: 150px;
-    text-shadow: 0 2px #000000;
-    font-family: 'Trebuchet MS', 'Helvetica';
-    border: 1px solid #204156;
-    margin-top: 100px;
-}
-
-img {
+.header-icons {
+    /*Image class for icons, so icons and main pic can be different sizes*/
     width: 64px;
     height: 64px;
 }
 
-p {
-    color: grey;
-    font-size: 2em;
+.description {
+    border: 5px solid black;
+    margin:0 auto;
+    width: 1000px;
+    height: auto; /*Auto sizes the box to be the size of the text within.*/
+    text-align: center;
+}
+
+span {
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+.main-picture {
+    margin-top: 50px;
+    width: 385px;
+    height: 516px;
+}
+
+.dept-picture {
+    margin-top: 50px;
+    width: 444px;
+    height: 78px;
 }
