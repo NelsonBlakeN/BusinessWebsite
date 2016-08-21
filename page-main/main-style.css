@@ -15,14 +15,15 @@ body {
 a {
     color: white;
 }
+
 a:hover {
     color: white;
 }
+
 .banner {
     width: 100%;
     position: fixed; /*Keeps the banner at the top of the page as you scroll down*/
     background-color: rgb(80, 0, 0); /*Aggie Maroon thx and gigem*/
-    color: white;
     padding: 10px 0 10px 0;
     top: 0;
     margin: auto;
